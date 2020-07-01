@@ -1,0 +1,245 @@
+CSS
+* {
+  box-sizing: border-box;
+}
+
+*{
+  list-style:none
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  }
+.wrapper {
+  min-width: 900px;
+  min-height: 1000px;
+  background: #fff;
+}
+
+.line1 {
+  border-bottom: 1px solid #7cbe00 !important;
+  position: ;
+}
+.line2  {
+  border-bottom: 1px solid #7cbe00 !important;
+  position: ;
+}
+.line3 {
+  border-bottom: 1px solid #7cbe00 !important;
+  position: ;
+}
+.line4 {
+  border-bottom: 40px solid brown !important;content=whi
+  position: ;
+}
+
+aside {
+  width: 40%;
+    background-color: #FFC107;
+  /* background-color: #FFD54F; */
+}
+.main article{
+    
+  }
+article {
+  width: 70%;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: -15px;
+  margin-left:0px;
+  border-radius: 100%;
+  background-color: #fff;
+  background-image:
+       url("http://image.dek-d.com/27/0391/4869/119477071");   
+  background-size: cover;
+  border: 1px #ffc107 solid;
+}
+.img-style {
+  background-color: #fff;
+  border-radius: 100%;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+}
+.img-section-style {
+  height: 35%;
+  margin: auto;
+  
+}
+.second-section-style {
+  height: 45%;
+   text-align: justify;
+   color: inherit;
+  margin-top:5px;
+     margin-left:20px;
+  margin-right:20px;
+  font-size: 18px;
+}
+.third-section-style {
+  height: 15%;
+  }
+.third-section-style span {
+  height: 15%;
+    }
+.box {
+  display: flex;
+}
+.main-direction {
+  flex-direction: row;
+}
+.aside-direction {
+  flex-direction: column;
+  }
+
+.article-direction { margin:200px 60px 40px 80px;
+
+  flex-direction: column;
+}
+ ul span{
+  left: 10px;
+  background: ;
+  border-radius: 50%;
+  height: 2px;
+  width: px;
+  content: "";
+  top:22px;
+       
+  }  
+    
+ h2{
+  font-size: 45px;
+   margin-top:11px;
+}
+p1{
+  font-size:26px;
+}
+h4{
+  margin-top: 80px;
+  font-size:25px;
+    
+}
+h3{
+  margin-top: -200px;
+  text-align: center;
+  font-size:25px;
+  border:1px solid brown;
+  background-color:#212121;
+  width:-50;
+  height:30px;
+  padding:3px;
+  
+        
+  }
+h3{
+  color:orange;
+    }
+h6{
+  color:orange;
+  margin-top: -200px;
+  text-align: center;
+  font-size:25px;
+  border:1px solid brown;
+  background-color:#212121;
+  width:px;
+  height:30px;
+  padding:1px;
+  margin-left:-20px;
+  margin-right:-20px;
+    }
+h5{
+  color:orange;
+  margin-top: -220px;
+   text-align: center;
+  font-size:25px;
+  border:1px solid brown;
+  background-color:#212121;
+  width:px;
+  height:30px;
+  padding:1px;
+  margin-left:-20px;
+  margin-right:-20px;
+}
+ins{
+ color:orange;
+}
+
+
+/* for the side by side section to make the divs work */
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-by-side div {
+  width: 80%;
+    
+}
+.icon-first  {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left:-40px;
+  font-size: 20px  
+}
+.icon-second  {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left:-40px;
+  font-size: 15px  
+}
+.icon-tree  {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left:-40px;
+  font-size: 10px  
+}
+.icon-four  {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left:-40px;
+  font-size: 20px  
+}
+.icon-five  {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left:-40px;
+  font-size: 14px  
+}
+.icon-six  {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left:-40px;
+  font-size: 10px  
+}
+/*
+  when the screen width is 550px or below ONLY then this CSS code is activated
+*/
+@media screen and (max-width: 550px) {
+  .wrapper {
+    min-width: inherit;
+    min-height: auto;
+     }
+
+  .photo {
+  width: 300px;
+  height: 300px;
+}
+   aside {
+    width: 100%;
+  }
+
+  article {
+    width: 100%;
+  }
+
+
+  
